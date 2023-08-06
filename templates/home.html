@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/home.css')}}"/>
+    </head>
+    <body>
+    <center>
+    <div class="container">
+    <h2 class="mainheading">Weather Dashboard in Flask </h2>
+        <form class="WeatherForm" action="{{ url_for('result_page') }}" method="post">
+            <!-- url_for will give address of function to call it -->
+            <div>Location Zip Code<p class="red">*</p>:</div>
+            <input id="zipCode" type="text" name="zipCode"><br>
+            <div>Location Country Code:(Default:in)</div>
+            <input id="countryCode" type="text" name="countryCode"><br>
+            <div>Temperature in<p class="red">*</p>:</div>
+            <select id="tempin" name="temp">
+                <option value="metric">Celsius(Metric)</option>
+                <option value="imperial">Fahrenheit(Imperial)</option>
+              </select><br>
+                <input id="submit" type="submit" value="Submit">
+        </form><a href="https://www.iso.org/obp/ui/#search"target="_blank">Search Alpha-2 Country Code</a>
+    </div>
+    </center>
+    </body>
+</html>

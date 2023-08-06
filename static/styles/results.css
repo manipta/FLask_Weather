@@ -1,0 +1,39 @@
+body{
+    background-image:url("../img/back.jpg");
+    background-size: cover;
+    /* {{url_for('static',filename='img/back.jpg')}} */
+}
+.container{
+    background-image:linear-gradient(rgb(11, 102, 106,0.7),rgb(151, 254, 237,0.1));
+    color:#071952;
+    display: block;
+    width: fit-content;
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+.mainheading{
+    padding: 0px 10px;
+}
+.red{
+    color:red;
+    display:inline;
+}
+.blue{
+    color:blue;
+    display:inline;
+}
+.back{
+    margin-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+    display: inline;
+    font-style: none;
+}
+.backiform{
+    display: block;
+    width: fit-content;
+}
+a{
+    text-decoration: none;
+    display: contents;
+}

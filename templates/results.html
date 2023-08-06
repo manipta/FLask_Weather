@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Weather in {{loc}}</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/results.css')}}"/>
+    </head>
+    <body>
+        <center>
+        <div class="container">
+        <h3 class="mainheading">Weather in {{loc}}</h3>
+        <h2>{{temp}}°{{unit}}</h2>
+        <h3>{{Weather}}</h3>
+        <h4>Feels Like: {{feels_like_temp}}°{{unit}}</h4>
+        <p><div class="red">MAX: {{temp_max}}°{{unit}} </div><div class="blue">MIN: {{temp_min}}°{{unit}}</div></p>
+        
+    </div>
+    <a href="/">
+        <form class="backiform" action="/">
+             <input class="back" type="button" value="HOME" />
+        </form>
+    </a>
+    </center>
+    </body>
+</html>

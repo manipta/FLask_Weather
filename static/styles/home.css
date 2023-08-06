@@ -1,0 +1,41 @@
+body{
+    background-image:url("../img/back.jpg");
+    background-size: cover;
+    /* {{url_for('static',filename='img/back.jpg')}} */
+}
+.container{
+    background-image:linear-gradient(rgb(11, 102, 106,0.7),rgb(151, 254, 237,0.1));
+    color:#071952;
+    display: inline-grid;
+    margin-top: 30px;
+    padding: 20px;
+}
+.container div{
+    display: contents;
+}
+.mainheading{
+    padding: 0px 10px;
+    font-size: 3rem;
+}
+.WeatherForm{
+    font-size: 2.5rem;
+    display: inline-grid;
+    text-align: center;
+}
+input,select,submit{
+    font-size: 2rem;
+    text-align: center;
+}
+.red{
+    color:red;
+    display: inherit;
+}
+.blue{
+    color:blue;
+    display: inherit;
+}
+a{
+font-size: 1.5rem;
+color: yellowgreen;
+text-decoration: none;
+}
