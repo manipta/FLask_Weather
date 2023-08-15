@@ -17,7 +17,15 @@ open_weather=e24xxxx1
 ```
 like this
 
-Now open terminal in folder having app.py enter following command in terminal
+Now open terminal in the folder having app.py & enter following command in terminal
 ```
 flask run
 ```
+
+#Screenshots
+
+## Home Page
+![home](Screenshots/home_page.png)
+
+## Result Page
+![home](Screenshots/result_page.png)
