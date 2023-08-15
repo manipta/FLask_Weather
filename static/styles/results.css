@@ -1,7 +1,10 @@
 body{
-    background-image:url("../img/back.jpg");
+    /* background-image:url("../img/back.jpg"); */
+    
+    /* below is done in html as jinja is not able to work in static files and css is treated as static file */
+    /* background-image: url({{ url_for('static',filename='img/back.jpg') }}); */
     background-size: cover;
-    /* {{url_for('static',filename='img/back.jpg')}} */
+    
 }
 .container{
     background-image:linear-gradient(rgb(11, 102, 106,0.7),rgb(151, 254, 237,0.1));

@@ -3,7 +3,7 @@
         <title>Weather in {{loc}}</title>
         <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/results.css')}}"/>
     </head>
-    <body>
+    <body style="background-image: url({{ url_for('static',filename='img/back.jpg') }});">
         <center>
         <div class="container">
         <h3 class="mainheading">Weather in {{loc}}</h3>

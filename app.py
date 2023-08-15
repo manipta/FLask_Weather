@@ -4,8 +4,7 @@ from flask import Flask, render_template, request
 
 # __name__ will be replaced by name of py file that is app
 app = Flask(__name__)
-
-
+app.debug=True
 @app.route('/')
 def weather_dashboard():
     return render_template('home.html')
@@ -50,4 +49,4 @@ def result_page():
     return result
 
 if __name__ == '__main__':
-    app.run()  # will run app once
+    app.run(debug=True)  # will run app once
