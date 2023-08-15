@@ -22,7 +22,7 @@ Now open terminal in the folder having app.py & enter following command in termi
 flask run
 ```
 
-#Screenshots
+# Screenshots
 
 ## Home Page
 ![home](Screenshots/home_page.png)
